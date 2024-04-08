@@ -58,11 +58,11 @@ function App() {
     <div>
       <h1>Data from Server</h1>
       
-      <div>
+      {/* <div>
         <h2>Fetch Data</h2>
         <input type="text" placeholder="Enter Key" value={getKeyInput} onChange={e => setGetKeyInput(e.target.value)} />
         <button onClick={() => fetchData(getKeyInput)}>Fetch</button>
-      </div>
+      </div> */}
 
       <div>
         <h2>Set Data</h2>
